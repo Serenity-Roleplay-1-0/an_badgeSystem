@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+#badge {
+    position: fixed;
+    top: 5%;
+    right: 10%;
+    display: none;
+    float: right;
+    width: 600px;
+    height: 750px;
+    /* padding: 54px 17px 10px 144px; */
+    background: url("");
+    background-repeat: no-repeat;
+}
+
+#avatar {
+    position: relative;
+    height: 120px;
+    width: 100px;
+    left: 56%;
+    top: 16%;
+    /* background-color: rgba(160, 159, 150, 0.87); */
+    background-image: url("");
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+}
+
+#callsign {
+    position: relative;
+    left: 14%;
+    top: 20%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
+
+#name {
+    position: relative;
+    left: 14%;
+    top: 13.2%;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
