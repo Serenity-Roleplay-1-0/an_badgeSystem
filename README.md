@@ -26,13 +26,13 @@ AN Badge System is a resource that allows LEOs and EMS to identify themselves in
 5. Restart your server and enjoy!!
 
 ## Inventory
-1. qb-inventory
+1. qb-inventory: 
 Add the following lines to qb-core/shared/items.lua
 badge                        = { name = 'badge', label = 'LSPD Badge', weight = 500, type = 'item', image = 'lspd-2.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'LSPD Badge' },
 sdbadge                      = { name = 'sdbadge', label = 'BCSO Badge', weight = 500, type = 'item', image = 'bcso-2.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'BCSO Badge' },
 emsbadge                     = { name = 'emsbadge', label = 'EMS Badge', weight = 500, type = 'item', image = 'ems.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'EMS Badge' },
 
-2. ox_inventory
+2. ox_inventory: 
 Add the following to ox_inventory/data/items.lua
 
 	["badge"] = {
