@@ -96,4 +96,4 @@ end
 
 RegisterCommand("badgeavatar", function()
   TriggerEvent("an_badges:createBadge")
-end)
+end, false)
